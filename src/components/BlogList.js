@@ -11,7 +11,7 @@ const BlogList = ({ onPostClick }) => {
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const response = await fetch(`https://newsapi.org/v2/everything?q=technology&page=${page}&pageSize=10&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`);
+      const response = await fetch(`https://newsapi.org/v2/everything?q=bitcoin&apiKey=4befdcef5cec4dccbafef0de15768530`);
       const data = await response.json();
       setPosts(data.articles);
       setTotalPages(Math.ceil(data.totalResults / 10)); // Assuming 10 posts per page
