@@ -1,5 +1,4 @@
-![Uploading image.png…]()
-![Uploading n.png…]()
+
 
 # Getting Started with Create React App
 
