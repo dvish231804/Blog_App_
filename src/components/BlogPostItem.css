@@ -1,0 +1,6 @@
+.blog-post-image {
+    max-height: 150px; /* Adjust the height as needed */
+    width: 100%; /* Make sure the width fits the card */
+    object-fit: cover; /* Ensure the image covers the space while maintaining aspect ratio */
+  }
+  
